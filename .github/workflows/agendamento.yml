@@ -31,4 +31,4 @@ jobs:
           EMAIL_DESTINATARIO: ${{ secrets.EMAIL_DESTINATARIO }}
           SMTP_PORTA: ${{ secrets.SMTP_PORTA }}
           SMTP_HOST: ${{ secrets.SMTP_HOST }}
-        run: python enviar_email.py
+        run: python teste.py
