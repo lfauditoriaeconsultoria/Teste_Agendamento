@@ -3,8 +3,8 @@ name: Envio de e-mail de teste
 on:
   workflow_dispatch:
   schedule:
-  # 05:34 UTC equivale a 03:34 de Brasília, necessário colocar esse horário por conta do delay do GitHub (Execução principal pela manhã)
-    - cron: '34 05 * * 1-5'
+  # 05:48 UTC equivale a 03:48 de Brasília, necessário colocar esse horário por conta do delay do GitHub (Execução principal pela manhã)
+    - cron: '48 05 * * 1-5'
 
 jobs:
   enviar-email:
